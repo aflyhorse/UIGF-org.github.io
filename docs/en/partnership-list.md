@@ -453,9 +453,11 @@
     import export>
     <template #import>
       <Pcb label="UIGF v4.1" :games="['ys','sr_','zzz_']" bg="blue"></Pcb>
+      <Pcb label="UIGF v3.0" :games="['ys']" bg="white"></Pcb>
     </template>
     <template #export>
       <Pcb label="UIGF v4.1" :games="['ys','sr_','zzz_']" bg="blue"></Pcb>
+      <Pcb label="UIGF v3.0" :games="['ys']" bg="white"></Pcb>
     </template>
   </Pcd>
 </RelativeProjectPanel>
