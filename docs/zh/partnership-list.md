@@ -448,9 +448,12 @@
     repo="https://github.com/biuuu/genshin-wish-export"
     title="genshin wish export"
     desc="Easily export the Genshin Impact wish record"
-    export>
+    import export>
+    <template #import>
+      <Pcb label="UIGF v4.1" :games="['ys','sr_','zzz_']" bg="blue"></Pcb>
+    </template>
     <template #export>
-      <Pcb label="UIGF v4.1" :games="['ys']" bg="blue"></Pcb>
+      <Pcb label="UIGF v4.1" :games="['ys','sr_','zzz_']" bg="blue"></Pcb>
     </template>
   </Pcd>
 </RelativeProjectPanel>
